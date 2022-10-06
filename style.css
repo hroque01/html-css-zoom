@@ -1,0 +1,19 @@
+/* Regole Generali */
+* {
+    margin: 0;
+    padding: 0;
+    background: border-box;
+}
+
+
+/* COMANDI INTESTAZIONE */
+header {
+    width: 100%;
+    height: 100vh;
+    /* DEBUG */
+    
+}
+
+    .box-speaker {
+
+    }
