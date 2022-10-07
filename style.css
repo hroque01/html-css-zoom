@@ -25,8 +25,7 @@ a {
 /* COMANDI INTESTAZIONE */
 header {
     width: 100%;
-    /* DEBUG */
-    
+    height: 50px;  
 }
 
     .box-speaker {
@@ -56,8 +55,14 @@ header {
     }
 
 /* Main Corpo */
+
+main {
+    height: 1000px;
+    margin-bottom: 5%;
+}
+
 .container {
-    height: cacl (100vh - 20%);
+    height: 1000px ;
     overflow: hidden;
 }
 
@@ -92,12 +97,13 @@ header {
 /* FOOTER */
 
 footer {
-    /* height: 100px; */
+    height: 100px;
     width: 100%;
     background-color: grey;
 }
 
 .comandi {
+    height: 100px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -105,9 +111,9 @@ footer {
 
 .separe {
     width: 100%;
-    display: flex;
-   
+    display: flex; 
 }
+
     .simbolo {
         font-size: 30px;
         padding: 10px 15px;
@@ -155,12 +161,11 @@ footer {
     }
 
     .ext {
-        width: 100%;
+        width: 50%;
         text-align: center;
         background-color: rgba(108, 5, 5, 0.357);
-        padding: 50px 10px;
+        padding: 32px 10px;
         align-items: flex-end;
         color: red;
-        margin-left: 50%;
         text-decoration: none;
     }
