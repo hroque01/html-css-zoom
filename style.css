@@ -99,6 +99,7 @@ footer {
 
 .comandi {
     display: flex;
+    align-items: center;
     justify-content: space-between;
 }
 
@@ -109,7 +110,7 @@ footer {
 }
     .simbolo {
         font-size: 30px;
-        padding: 10px 10px;
+        padding: 10px 15px;
         text-decoration: none;
         text-align: center;
     }
@@ -142,6 +143,7 @@ footer {
     .users {
         width: 100%;
         color: white;
+        padding: 0 5px;
     }
 
     .center {
@@ -150,4 +152,15 @@ footer {
 
     .green {
         color: green;
+    }
+
+    .ext {
+        width: 100%;
+        text-align: center;
+        background-color: rgba(108, 5, 5, 0.357);
+        padding: 50px 10px;
+        align-items: flex-end;
+        color: red;
+        margin-left: 50%;
+        text-decoration: none;
     }
