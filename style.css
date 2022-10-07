@@ -10,6 +10,18 @@ body {
     background-color: black;
 }
 
+i {
+    color: white    ;
+}
+
+span {
+    color: white;
+}
+
+a {
+    text-decoration: none;
+}
+
 /* COMANDI INTESTAZIONE */
 header {
     width: 100%;
@@ -49,28 +61,78 @@ header {
     overflow: hidden;
 }
 
-#grid {
-    height: 100vh;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    width: 100vw;
-    margin: 2% 2%;
-    overflow: auto;
-}
-
-    #grid img {
-        display: block;
-        max-width: 100%;
-        margin-bottom: 5px;
-        padding: 5px;
+    #grid {
+        height: 100vh;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 100vw;
+        margin: 2% 2%;
+        overflow: auto;
     }
 
+    .blocco {
+        position: relative;
+    }
+        #grid img {
+            display: block;
+            max-width: 100%;
+            margin-bottom: 5px;
+            padding: 5px;
+        }
 
+        .mute {
+            width: 100px;
+            padding: 2px 2px;
+            background-color: #505050;
+            position: absolute;
+            bottom: 10px;
+            left: 10px;
+        }
 /* FOOTER */
 
 footer {
-    height: 100px;
+    /* height: 100px; */
     width: 100%;
     background-color: grey;
 }
+
+.comandi {
+    display: flex;
+
+}
+
+.separe {
+    display: flex;
+}
+    .simbolo {
+        font-size: 30px;
+        padding: 10px 10px;
+        text-decoration: none;
+        text-align: center;
+    }
+
+    .scritta {
+        width: 10%;
+        font-size: 15px;
+        text-align: center;
+        padding: 0 7px;
+        color: white;
+    }
+
+    #video-txt {
+        width: 100%;
+        font-size: 15px;
+        text-align: center;
+        padding: 0 7px;
+        color: white;
+    }
+    
+    .fa-chevron-up {
+        font-size: 10px;
+        text-align: left;
+    }
+
+    #video {
+        padding-left: 30px;
+    }
