@@ -57,7 +57,7 @@ header {
 
 /* Main Corpo */
 .container {
-    height: calc(100vh - 133px);
+    height: cacl (100vh - 20%);
     overflow: hidden;
 }
 
@@ -99,11 +99,13 @@ footer {
 
 .comandi {
     display: flex;
-
+    justify-content: space-between;
 }
 
 .separe {
+    width: 100%;
     display: flex;
+   
 }
     .simbolo {
         font-size: 30px;
@@ -135,4 +137,17 @@ footer {
 
     #video {
         padding-left: 30px;
+    }
+
+    .users {
+        width: 100%;
+        color: white;
+    }
+
+    .center {
+        text-align: center;
+    }
+
+    .green {
+        color: green;
     }
