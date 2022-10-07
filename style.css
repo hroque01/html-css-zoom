@@ -16,31 +16,50 @@ header {
     /* DEBUG */
     
 }
+
     .box-speaker {
-        display: flex;
-        flex-direction: row-reverse;
+                display: flex;
+                flex-direction: row-reverse;
     }
 
     .box {
-        width: 121px;
-        border-radius: 5px;
-        margin-top: 5px;
-        margin-right: 5px;
-        padding: 5px 3px;
-        color: white;
-        background-color: grey;
-        order: 1;
+                width: 121px;
+                border-radius: 5px;
+                margin-top: 5px;
+                margin-right: 5px;
+                padding: 5px 3px;
+                color: white;
+                background-color: grey;
+                order: 1;
     }
 
     .arrow {
-        width: 17px;
-        border-radius: 5px;
-        margin-top: 5px;
-        margin-right: 5px;
-        padding: 5px 3px;
-        color: white;
-        background-color: grey;
+                width: 17px;
+                border-radius: 5px;
+                margin-top: 5px;
+                margin-right: 5px;
+                padding: 5px 3px;
+                color: white;
+                background-color: grey;
     }
+
+/* Main Corpo */
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    padding: 16px;
+    margin: 0 auto;
+}
+
+    .grid img {
+        display: block;
+        max-width: 100%;
+        margin-bottom: 16px;
+        padding: 16px;
+    }
+
 
 /* FOOTER */
 
