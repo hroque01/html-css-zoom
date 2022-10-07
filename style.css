@@ -45,18 +45,19 @@ header {
 
 /* Main Corpo */
 .container {
+    height: calc(100vh - 200px);
     overflow: hidden;
 }
 
-.grid {
+#grid {
+    height: 100vh;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    flex-shrink: calc(100% - 10%);
     width: 100vw;
     padding: 5px;
-    margin: 0 auto;
-    overflow-y: scroll;
+    margin: 2% 2%;
+    overflow: auto;
 }
 
     .grid img {
@@ -70,7 +71,7 @@ header {
 /* FOOTER */
 
 footer {
-    height: 100px;
+    height: 200px;
     width: 100%;
     background-color: grey;
 }
